@@ -37,7 +37,12 @@
     --bold-font-weight: 600; } 
    
    
-   
+  
+    
+  header {
+    font-family: var(--main-font);
+    padding-bottom: 40px;
+  }
    
    #kleur{
 
