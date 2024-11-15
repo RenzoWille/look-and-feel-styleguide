@@ -1,6 +1,13 @@
-# Styleguide
+# Styleguide DDA H1
 
-Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht van een opdrachtgever.
+Hier vind je de styleguide die word gebruikt door het DDA H1 team. In deze styleguide geven wij uitleg kleuren, typografie, Alinea's, lijsten, links en buttons.
+
+Link: https://renzowille.github.io/look-and-feel-styleguide/
+
+In de DDA website komen er 4 kleuren van toepassing.
+
+![image](https://github.com/user-attachments/assets/1f947816-3a29-4812-b0fa-db597577ce8d)
+
 
 ## Licentie
 
