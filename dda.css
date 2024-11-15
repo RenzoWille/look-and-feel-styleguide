@@ -22,37 +22,43 @@
     --font-size-m: 32px;
     --font-size-s: 24px;
 
+    /* font-size-extra */
+    --font-size-paragraph: 18px;
+    --font-size-subtext: 16px;
+
     /* letter-spacing */
 
     --letter-spacing-main: -4%;
     --letter-spacing-secondary: 0%;
 
     /* font-weight */
-    --main-font-weight: 
-  } 
+    --standard-font-weight: 400;
+    --semibold-font-weight: 500;
+    --bold-font-weight: 600; } 
    
    
    
    
    #kleur{
-    .color-example-1{
+
+    .color-one{
       background-color: var(--standard-color);
       color: var(--second-standard-color)
     }
   
-    .color-example-2{
-      background-color: #666666;
-      color: white;
+    .color-two{
+      background-color: var(--third-standard-color);
+      color: var(--second-standard-color);
     }
   
-    .color-example-3{
-      background-color: #FFFFFF;
-      border: 1px solid black;
+    .color-three{
+      background-color: var(--second-standard-color);
+      border: 1px solid var(--standard-color);
     }
   
-    .color-example-4{
-      background-color: #364BF7;
-      color: white;
+    .color-four{
+      background-color: var(--changeable-color);
+      color: var(--second-standard-color);
     }
   
   }
@@ -60,97 +66,97 @@
 
     h1{
 
-      font-size: 96px;
+      font-size: var(--font-size-xxl);
       font-family: var(--main-font);
       line-height: 96px;
-      letter-spacing: -4%;
-      font-weight: 600;
+      letter-spacing: var(--letter-spacing-main);
+      font-weight: var(--bold-font-weight);
       text-transform: uppercase;
     }
   
     h2{
-      font-size: 64px;
+      font-size: var(--font-size-xl);
       font-family: var(--main-font);
       line-height: 64px;
-      letter-spacing: -4%;
-      font-weight: 600;
+      letter-spacing: var(--letter-spacing-main);
+      font-weight: var(--bold-font-weight);
       text-transform: uppercase;
     }
   
     h3{
-      font-size: 48px;
-      font-family: "Archivo";
+      font-size: var(--font-size-l);
+      font-family: var(--main-font);
       line-height: 48px;
-      letter-spacing: -4%;
-      font-weight: 600;
+      letter-spacing: var(--letter-spacing-main);
+      font-weight: var(--bold-font-weight);
       text-transform: uppercase;
     }
   
     h4{
-      font-size: 32px;
-      font-family: "Archivo";
+      font-size: var(--font-size-m);
+      font-family: var(--main-font);
       line-height: 40px;
-      letter-spacing: 0%;
-      font-weight: 400;
+      letter-spacing: var(--letter-spacing-secondary);
+      font-weight: var(--regular-font-weight);
       text-transform: uppercase;
     }
   
     h5{
-      font-size: 24px;
-      font-family: "Archivo";
+      font-size: var(--font-size-s);
+      font-family: var(--main-font);
       line-height: 40px;
-      letter-spacing: 0%;
-      font-weight: 600;
+      letter-spacing: var(--letter-spacing-secondary);
+      font-weight: var(--bold-font-weight);
       text-transform: uppercase;
     }
   
     h6{
-      font-size: 24px;
-      font-family: "Archivo";
+      font-size: var(--font-size-s);
+      font-family: var(--main-font);
       line-height: 40px;
-      letter-spacing: 0%;
-      font-weight: 400;
+      letter-spacing: var(--letter-spacing-secondary);
+      font-weight: var(--regular-font-weight);
       text-transform: uppercase;
     }
   
     .paragraph{
-      font-size: 18px;
-      font-family: "Archivo";
-      font-weight: 400;
+      font-size: var(--font-size-paragraph);
+      font-family: var(--main-font);
+      font-weight: var(--regular-font-weight);
       line-height: 24px;
-      letter-spacing: -4%;
+      letter-spacing: var(--letter-spacing-main);
     }
   
     .sub-text{
-      font-size: 16px;
-      font-family: "Martian Mono";
-      font-weight: 400;
+      font-size: var(--font-size-subtext);
+      font-family: var(--secondary-font);
+      font-weight: var(--regular-font-weight);
       line-height: 24px;
-      letter-spacing: -4%;
+      letter-spacing: var(--letter-spacing-main);
     }
   
-    .unordered-lists{
-      font-family: "Martian Mono";
-      font-weight: 400;
+    .unordered-lists-links{
+      font-family: var(--secondary-font);
+      font-weight: var(--regular-font-weight);
       text-transform: uppercase;
       text-decoration: none;
       line-height: 16px;
-      letter-spacing: 0%;
+      letter-spacing: var(--letter-spacing-main);
     }
   
     .primary-cta{
-      font-family: "Martian Mono";
-      font-weight: 600;
+      font-family: var(--secondary-font);
+      font-weight: var(--bold-font-weight);
       text-transform: uppercase;
       text-decoration: none;
     }
   
-    .unordered-lists-footer{
-      font-size: 18px;
-      font-family: "Archivo";
-      font-weight: 400;
+    .unordered-lists-footerlinks{
+      font-size: var(--secondary-font);
+      font-family: var(--main-font);
+      font-weight: var(--regular-font-weight);
       line-height: 32px;
-      letter-spacing: 0%;
+      letter-spacing: var(--letter-spacing-secondary);
       text-decoration: underline;
     }
   
