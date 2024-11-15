@@ -13,6 +13,8 @@ Typografie
 
 Op de hele website word er gebruik gemaakt van een font Archivo. Wij gebruiken verschillende font size's voor mobile en voor desktop. De font size's worden aangepast door het gebruiken van media query's.
 
+Voor de custom properties hebben we overzichtelijke namen gebruikt om aan te duiden wat en waar je welke lettertype en welke lettergrootte je gebruikt.
+
 ![image](https://github.com/user-attachments/assets/670271e8-0cc6-485f-87b3-3540fc47a12a)
 
 Button
