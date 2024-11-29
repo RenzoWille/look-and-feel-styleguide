@@ -184,8 +184,7 @@
     }
   
   
-  #buttons-black{
-    .buttons-black{
+    .buttons {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -194,26 +193,19 @@
       text-transform: uppercase;
       gap: 12px;
       padding: 10px 16px 10px 16px;
-      border: 2px solid #222226;
-      background-color: white;
-    }
-  }
-  
-    #buttons-blue{
-      .buttons-blue{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 12px;
-        font-family: "Martian Mono";
-        text-transform: uppercase;
-        gap: 12px;
-        padding: 10px 16px 10px 16px;
-        border: 2px solid #364BF7;
+
+      .buttons-black {
+        border: 2px solid #222226;
         background-color: white;
-        color: #364BF7;
-      }
-  }
+    }
+
+    .buttons-blue {
+      border: 2px solid #364BF7;
+      background-color: white;
+      color: #364BF7;
+}
+}
+
 
   .filter {
     display: flex;
