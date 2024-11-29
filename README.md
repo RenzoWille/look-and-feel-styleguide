@@ -5,7 +5,7 @@ Hier vind je de styleguide die word gebruikt door het DDA H1 team. In deze style
 Link: https://renzowille.github.io/look-and-feel-styleguide/
 
 In de DDA website komen er 4 kleuren van toepassing.
-De HEX van elke kleur staat aangegeven in de stylesheet.
+De HEX van elke kleur staat aangegeven in de styleguide.
 
 ![image](https://github.com/user-attachments/assets/1f947816-3a29-4812-b0fa-db597577ce8d)
 
