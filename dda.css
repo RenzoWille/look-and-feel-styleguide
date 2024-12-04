@@ -218,7 +218,6 @@
 
 @media (max-width: 768px) {
     .filter {
-        flex-direction: column; /* Zet de filter items onder elkaar */
         justify-content: center; /* Centreer items horizontaal */
         align-items: center; /* Centreer items verticaal */
         padding: 10px;
